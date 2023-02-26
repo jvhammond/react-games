@@ -1,7 +1,19 @@
+
+
+
+
 export function CatWord() {
-    return <div style = {{
-        fontSize: "2rem"
-      }}>
-        CatWord!!!!!!
+    const word = "Cookie"
+    return <div
+        style={{
+        display: "flex",
+        gap: ".25em",
+        fontSize: "6rem",
+        fontWeight: "bold",
+        textTransform: "uppercase",
+        fontFamily: "monospace",
+        }}
+    >
+        {word}
       </div>
 }
