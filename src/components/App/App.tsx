@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import words from "./CatList.json"
-import {Drawing} from "./Drawing"
-import {CatWord} from "./CatWord"
-import {Keyboard} from "./Keyboard"
+import words from "../../CatList.json"
+import {Drawing} from "../../Drawing"
+import {CatWord} from "../../CatWord"
+import {Keyboard} from "../../Keyboard"
 
 function App() {
 
