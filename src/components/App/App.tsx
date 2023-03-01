@@ -2,7 +2,10 @@ import { useState } from 'react'
 import words from "../../CatList.json"
 import {Drawing} from "../../Drawing"
 import {CatWord} from "../../CatWord"
-import {Keyboard} from "../../Keyboard"
+import {Keyboard} from "../Keyboard/Keyboard"
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import { ThemeProvider } from "../../common/Theme";
 
 function App() {
 
