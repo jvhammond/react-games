@@ -17,24 +17,27 @@ function App() {
   console.log(wordToGuess)
 
   return (
-    <div style ={{
-      maxWidth: "800px",
-      display: "flex",
-      flexDirection: "column",
-      gap: "2rem",
-      margin: "0 auto",
-      alignItems: "center"
-    }}
-    >
-      <div style = {{
-        fontSize: "2rem"
-      }}>
-        Lose Win
+    <>
+    <Header />
+      <div style ={{
+        maxWidth: "800px",
+        display: "flex",
+        flexDirection: "column",
+        gap: "2rem",
+        margin: "0 auto",
+        alignItems: "center"
+      }}
+      >
+        <div style = {{
+          fontSize: "2rem"
+        }}>
+          Lose Win
+        </div>
+        <Drawing />
+        <CatWord />
+        <Keyboard />
       </div>
-      <Drawing />
-      <CatWord />
-      <Keyboard />
-    </div>
+    </>
   )
 }
 

@@ -1,4 +1,4 @@
-export function Footer() {
+export default function Footer() {
     return <div style = {{
         fontSize: "2rem"
       }}>
