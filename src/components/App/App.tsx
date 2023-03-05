@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Hangman from "../Hangman/Hangman"
+import TicTacToe from "../TicTacToe/TicTacToe"
 import Home from "../Home/Home"
+import About from "../About/About"
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 // import TabsRouter from "../TabsRouter/TabsRouter";
@@ -14,12 +16,14 @@ function App() {
     <>
     {/* <Header />
     <Home/> */}
+    <Header />
     <ResponsiveAppBar/>
     <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="Hangman" element={<Hangman/>} />
-      <Route path="TicTacToe" element={<Home/>} />
-      <Route path="About" element={<Home/>} />
+      <Route path="/react-games/" element={<Home/>} />
+      <Route path="/react-games/Home" element={<Home/>} />
+      <Route path="/react-games/Hangman" element={<Hangman/>} />
+      <Route path="/react-games/TicTacToe" element={<TicTacToe/>} />
+      <Route path="/react-games/About" element={<About/>} />
     </Routes>
     </>
   )
