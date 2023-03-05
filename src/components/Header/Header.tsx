@@ -10,7 +10,8 @@ import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import useThemeToggle from "../../common/ThemeToggle";
 
-// provides horizontal bar at the top, including mock mode button
+export type ColorMode = "light" | "dark";
+
 export default function Header() {
   const [theme, toggleTheme] = useThemeToggle();
 
