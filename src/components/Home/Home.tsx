@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { ThemeProvider } from "../../common/Theme";
+import { ThemeProvider } from "../../common/LocalStorage";
 
 function Home() {
 

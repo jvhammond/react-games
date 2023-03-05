@@ -5,7 +5,7 @@ import {CatWord} from "./CatWord"
 import {Keyboard} from "../Keyboard/Keyboard"
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import { ThemeProvider } from "../../common/Theme";
+import { ThemeProvider } from "../../common/LocalStorage";
 
 function Hangman() {
 
